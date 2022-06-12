@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+}
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header {
+    background-color: brown;
+    color: #e4cda8;
+    padding:20px
+}
+
+.header p {
+}
+
+.navbar .container, .header .container, .cards .container, .quote .container, .signup .container, .footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: brown;
+}
+
+ul.nav {
+    display: flex;
+    height: 60px;
+    align-items: center;
+}
+
+.nav li {
+    list-style: none;
+}
+
+.nav a {
+    text-decoration: none;
+    color:#343334;
+    font-weight: bold;
+    padding: 0 20px;
+}
+
+img.header-img {
+    max-width: 500px;
+}
+
+img.card-image {
+    max-width: 200px;
+    border: 2px solid #e4cda8;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.cards p {
+    margin: 10px 0;
+}
+
+.cards .container{
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.cards h2 {
+    width: 100%;
+    flex: 1 1 auto;
+    text-align: center;
+    line-height: 4;
+    color: #343334;
+}
+
+.card {
+    max-width: 200px;
+}
+
+.qoute {
+    background-color: #e5e7eb;
+}
+
+.qoute .container {
+    display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 20px;
+}
+
+.qoute p {
+    width: 50%;
+    margin: 40px 0;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 1.2em;
+}
+
+p.author{
+    margin-top: -30px;
+    text-align: right;
+    font-weight: bold;
+}
+
+.signup .container {
+    justify-content: space-around;
+    background-color: #e4cda8;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 30px ;
+    border-radius: 20px;
+}
+
+.signup p span{
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+button {
+    padding: 5px 20px;
+    background-color: transparent;
+    border-radius: 5px;
+}
+
+.header button {
+    margin-top: 16px;
+    color: #e4cda8;
+}
+
+.footer {
+    background-color: #1f2937;
+}
+
+.footer .container{
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    color: #e4cda8;
+}
